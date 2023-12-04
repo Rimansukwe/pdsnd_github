@@ -27,6 +27,7 @@ def get_filters():
         except:
          print("Please enter a valid city ")
 
+    # Give some feedback to user
     print("Great choice! You will be shown data from {}".format(city.title()))
     # Get user input for month (all, january, february, ... , june).
     while True:
@@ -180,7 +181,7 @@ def user_stats(df):
 
 def display_data(df):
     '''Displays rows of data, 5 lines each time'''
-    
+    # Ask user if they would like to see individual trip data
     view_data = input("Would you like to view 5 rows of individual trip data? Enter yes or no \n")
     start_loc = 0
     while view_data == "yes":

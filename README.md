@@ -3,11 +3,10 @@
 ### Date created
 Include the date you created this project and README file.
 
-### Project Title
-Replace the Project Title
+### Bikeshare Project
 
 ### Description
-Describe what your project is about and what it does
+The Bikeshare project explores bikeshare activity in chicago, new york and washington.
 
 ### Files used
 Include the files used

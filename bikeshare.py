@@ -27,6 +27,7 @@ def get_filters():
         except:
          print("Please enter a valid city ")
 
+    # Give some feedback to user
     print("Great choice! You will be shown data from {}".format(city.title()))
     # Get user input for month (all, january, february, ... , june).
     while True:
